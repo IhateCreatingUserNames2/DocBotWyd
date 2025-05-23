@@ -8,7 +8,7 @@ import json
 
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 CODEBASE_FILE = "codebase.txt" 
-MODEL = "meta-llama/llama-4-scout:free"  
+MODEL = "google/gemini-2.5-pro-exp-03-25"  
 
 
 with open(CODEBASE_FILE, 'r', encoding='utf-8') as f:
